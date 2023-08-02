@@ -1,9 +1,11 @@
 import chef from "../assets/chef.jpg"
 import Footer from "./Footer"
+import Navbar from "./Navbar"
 
 const AboutUs = () => {
     return (
         <div className="">
+            <Navbar></Navbar>
             <div className="ml-[7vw] mr-[7vw] mt-[6vw]">
                 <div className="flex">
                     <img src={chef} alt="" className="w-[35vw] rounded-md" />

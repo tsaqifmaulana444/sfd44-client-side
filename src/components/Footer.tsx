@@ -5,7 +5,7 @@ import { faInstagram, faTiktok, faYoutube } from '@fortawesome/free-brands-svg-i
 
 const Footer = () => {
     return (
-        <div className="bg-[#0a0a0a] py-[6vh]">
+        <div className="bg-[#0a0a0a] py-[4vh]">
             <div className="ml-[7vw]">
                 <img src={logo} alt="" className="w-[12vw]" />
             </div>
